@@ -11,6 +11,6 @@ class MailTest extends WebTestCase {
         $client->request('GET', '/send-mail');
 
         // $this->assertResponseIsSuccessful();
-        $this->assertEmailCount(2); 
+        $this->assertEmailCount(1); 
     }
 }

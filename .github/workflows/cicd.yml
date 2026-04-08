@@ -61,7 +61,7 @@ jobs:
           password: ${{ secrets.DOCKERHIB_TOKEN }}
 
       - name: Build Docker image
-        run: docker build -t kerfiguetteb/symfony-mailer:latest .
+        run: docker build -t kerfiguetteboutman525/mailercicd:latest .
 
       - name: Push Docker image
-        run: docker push kerfiguetteb/symfony-mailer:latest
+        run: docker push kerfiguetteboutman525/mailercicd:latest

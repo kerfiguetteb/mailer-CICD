@@ -21,6 +21,6 @@ final class MailController extends AbstractController
 
         $mailer->send($email);
 
-        return new Response("✅ Email envoyé... !");
+        return new Response("✅ Email envoyé !");
     }
 }
